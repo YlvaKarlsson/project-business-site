@@ -20,7 +20,7 @@ button {
   display: block;
 }
 
-/* * {
+/* this border was used in the beginning to make it very visual for learning purposes * {
   border: 2px solid red;
 } */
 
@@ -53,7 +53,7 @@ h1 {
   background-image: url("./Images/Cherry-blossom.jpg");
   background-repeat: no-repeat center top;
   background-size: cover;
-  height: 700px; /* fix this? */
+  height: 700px;
   opacity: 80%;
 }
 
@@ -70,7 +70,7 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 182px;
-  min-height: 362px;
+  min-height: 362px; /* tip for future - practice on DRY */
   max-height: 362px;
   padding: 66px;
   margin: 33px;
@@ -142,7 +142,7 @@ input {
   }
 }
 
-/* responsive design for desktop browsers - NEED HELP WITH BUTTON POSITION?*/
+/* responsive design for desktop browsers */
 @media (min-width: 1024px) {
   .hero-text {
     text-align: center;
@@ -165,9 +165,3 @@ input {
     margin-bottom: -70px;
   }
 }
-
-/* Fix styling for div classes */
-
-/* Fix styling for Signup Form */
-
-/* Michelle W starts tomorrow 1 of Februar */
